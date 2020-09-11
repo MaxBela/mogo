@@ -1,0 +1,9 @@
+.gray-line {
+   &_block {
+      padding: 0 5px;
+      display: flex;
+      justify-content: space-between;
+   }
+   background-color: #f8f8f8 ;
+   padding: 65px 0;
+}

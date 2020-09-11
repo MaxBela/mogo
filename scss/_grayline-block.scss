@@ -1,0 +1,108 @@
+.grayline-block {
+   width: 100%;
+   height: 290px;
+   background: #f8f8f8;
+   position: relative;
+
+   &_page{
+   margin: 70px 110px;
+   max-width: 77%;
+   width: auto;
+   display: flex !important;
+   }
+
+
+   &_img {
+      height: 100%;
+      max-width: 100%;
+      display: inline-block;
+      margin-right: 60px;
+   }
+
+   &_text {
+      display: flex;
+      flex-direction: column;
+   }
+
+   &_p {
+      font-style: italic;
+      font-weight: 24px;
+      font-weight: 300;
+      color: #999;
+      line-height: 32px;
+      overflow: scroll;
+      max-height:120px ;
+   }
+
+   .line {
+      margin-top: auto ;
+      margin-right: auto;
+      margin: 0;
+   }
+
+   .text {
+      font-family: "Kaushan Script", cursive;
+      font-style: italic;
+      text-transform: capitalize;
+      font-weight: normal;
+      margin: 0;
+      margin-left: 10px;
+      font-size: 24px;
+  }
+
+   .slider {
+     
+   }
+
+   .slick-prev {
+      background-image: url(../img/arrow.PNG);
+      background-repeat: no-repeat;
+      height: 30px;
+      width: 30px;
+      transform: rotate(90deg);
+      background-position: 0 12px;
+      z-index: 99;
+      position: absolute;
+      left: 15px;
+      top: 135px;
+  }
+
+  .slick-next {
+   background-image: url(../img/arrow.PNG);
+   background-repeat: no-repeat;
+   height: 30px;
+   width: 30px;
+   transform: rotate(-90deg);
+   background-position: 0 12px;
+   z-index: 99;
+   position: absolute;
+   right: 15px;
+   top: 135px;
+}
+
+   .slick-prev:before,
+   .slick-next:before,{
+      content: '';
+  }
+
+  .bottom-gray {
+     margin-top: auto;
+  }
+
+  .grayline-block_p::-webkit-scrollbar {
+   width: 5px;
+   height: 0px;
+}
+
+.grayline-block_p::-webkit-scrollbar-button 
+{  background-color: transparent;
+   
+}
+
+.grayline-block_p::-webkit-scrollbar-track {  background-color: transparent;}
+.grayline-block_p::-webkit-scrollbar-track-piece { background-color: transparent; }
+.grayline-block_p::-webkit-scrollbar-thumb { height: 90px; background-color: #95e1d3; border-radius: 5px; }
+.grayline-block_p::-webkit-scrollbar-corner { background-color: transparent; }
+.grayline-block_p::-webkit-resizer { background-color: #666; }
+}
+

@@ -1,0 +1,118 @@
+.main-page {
+   height: 1000px;
+   background: url(../img/eagle.png);
+   background-position-x: 49%;
+   color: #fff;
+   position: relative;
+
+   &-h1 {
+      margin: 0 auto;
+      display: block;
+      width: 935px;
+      text-align: center;
+      margin-top: 175px;
+      font-size: 72px;
+      font-family: 'Kaushan Script', cursive;
+      text-transform: capitalize;
+
+      &-span {
+         font-size: 150px;
+         text-transform: uppercase;
+         font-family: 'Roboto', sans-serif;
+         font-weight: 700;
+      }
+   }
+
+   .btn-block {
+      display: flex;
+      flex-direction: column;
+      margin: 50px auto 160px;
+
+      &_border {
+         border-top:3px solid #fff ;
+         width: 60px;
+         margin: 0 auto;
+      }
+
+      &_btn {
+       
+         font-size: 14px;
+         text-transform: uppercase;
+         font-weight: bold;
+         color: #fff;
+         display: inline-block;
+         padding: 10px 30px;
+         border:3px solid #fff ;
+         margin: 50px auto 0;
+
+
+         &:hover {
+           border-color: #f38181;
+            color: #f38181;
+         }
+      }
+   }
+
+   .stage-block {
+      position: absolute;
+      bottom: 0;
+      align-items: flex-end;
+      margin: auto 0 0;
+      justify-content: space-between;
+      color: #f7eac5;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+
+      &_item {
+         position: relative;
+         width: 23%;
+         border-top: 3px solid #f7eac5;
+         padding: 25px 0;
+         font-size: 18px;
+         text-transform: uppercase;
+         font-weight: bold;
+
+         &::before {
+            position: absolute;
+            display: block;
+            top: -3px;
+            left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+            width: 0;/*задаём длинну линии до наведения курсора*/
+            height: 3px; /*задаём ширину линии*/
+            background-color: #f38181; /*задаём цвет линии*/
+            content: "";
+            transition: width 0.3s ease-out; /*задаём время анимации*/
+         }
+
+         &:hover::before {
+            width: 25%;
+         }
+
+
+
+         &:hover{
+            color: #fff;
+            border-color: #fff;
+         }
+         span {
+            font-size: 24px;
+         }
+   
+         & + & {
+            margin-left: auto;
+         }
+      }
+   }
+
+   .main-page_text {
+      display: flex;
+      flex-direction: column;
+
+   }
+
+   .text-block {
+      display: inline-block;
+   }
+   
+}

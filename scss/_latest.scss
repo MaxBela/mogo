@@ -1,0 +1,106 @@
+.latest-blog {
+   padding: 110px 0;
+
+
+   &-blue-block { 
+      h5 {
+         font-size: 30px;
+         font-weight: bolder;
+      }
+
+      span {
+         font-size: 15px;
+         font-style: italic;
+         font-weight: 300;
+         text-transform: capitalize;
+      }
+      color: #fff;
+      text-align: center;
+      justify-content: center;
+      position: absolute;
+      left: -10px;
+      bottom: 10px;
+      width: 60px;
+      height: 70px;
+      background-color: #95e1d3;
+   }
+
+   &_photo {
+      justify-content: space-between;
+      &-block {
+
+         &-text {
+            
+            
+            & h5 {
+               font-size: 14px;
+               color: #333;
+               text-transform: uppercase;
+               font-weight: bold;
+               margin: 20px 0;
+            }
+
+            & span {
+               font-size: 15px;
+               color: #999;
+               line-height: 25px;
+               margin-bottom: 20px;
+            }
+
+            &-signs {
+               margin-top: 20px;
+               padding: 15px 0 0 0;
+               border-top: 1px solid #e5e5e5 ;
+
+               & span {
+                  margin: 0 20px 0 5px;
+               }
+
+               & img {
+                  object-fit: contain;
+               }
+            }
+         }
+         width: 31%;
+         &_img1 {
+            position: relative;
+            background-image: url(../img/last1.png);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            background-position-x: -150px;
+            background-position-y: -105px;
+
+
+         }
+
+         &_img2 {
+            position: relative;
+            background-image: url(../img/last2.png);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            background-position-x: -40px;
+            background-position-y: -20px;
+         }
+
+         &_img3 {
+            position: relative;
+            background-image: url(../img/last3.PNG);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            background-position-x: -40px;
+            background-position-y: -20px;
+         }
+      }
+   }
+}
+
+.map {
+   height: 200px;
+   width: 100%;
+}

@@ -1,0 +1,31 @@
+.header-block {
+   padding: 30px 0;
+   color: #fff;
+
+   &_nav {
+      margin-left: auto;
+      &-item {
+         color: #fff;
+         text-transform: uppercase;
+         font-weight: 700;
+         padding: 13px 0;
+         font-size: 14px;
+         transition: all 0.1s ease-in;
+         border-bottom: 3px solid transparent ;
+
+         &:hover {
+            border-bottom: 3px solid #fce38a ;
+            color: #fce38a;
+         }
+
+         & + & {
+            margin-left: 55px;
+         }
+      }
+   }
+}
+
+
+
+
+

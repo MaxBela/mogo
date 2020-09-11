@@ -1,0 +1,45 @@
+.amazing-services {
+   padding: 110px 0 120px;
+}
+
+.hight-block {
+   margin-top: 65px;
+   color: #333333;
+   
+}
+
+.text-block {
+   padding-right: 10px;
+   &_span {
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: bold;
+      
+   }
+
+   &_p {
+      padding-top: 20px;
+      max-width: 270px;
+      width: 100%;
+   }
+}
+
+.img-block {
+   padding-right: 25px;
+   max-width: 100%;
+   height: auto;
+   object-fit: contain;
+    margin-bottom: auto;
+}
+
+.hight-block {
+   justify-content: space-between;
+   padding-bottom: 50px;
+   border-bottom: 1px solid #e5e5e5;
+}
+
+.bottom-block {
+   justify-content: space-between;
+   padding-top: 50px;
+   
+}

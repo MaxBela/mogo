@@ -1,0 +1,33 @@
+.unique-design {
+   background: url(../img/bg22.png) no-repeat;
+   max-height: 850px;
+   height: auto;
+   position: relative;
+   &_img {
+      visibility: hidden; 
+    position: relative;
+    height: 850px;
+   }
+
+   .header-text {
+      
+      position: absolute;
+      top: 100px;
+      right: 50%;
+      transform: translateX(50%);
+   }
+
+   .phone {
+      position: absolute;
+      bottom: 0;
+      right: 50%;
+      transform: translateX(45%);
+   }
+
+   .iphone {
+      position: absolute;
+      bottom: -91px;
+      right: 50%;
+      transform: translateX(137%);
+   }
+}
